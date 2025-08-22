@@ -1,0 +1,10 @@
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+deps/deps.jl
+deps/build.log
+Manifest.toml
+ex*backup*.jl
+core*
+
+pluto_state_cache
