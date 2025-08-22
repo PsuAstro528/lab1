@@ -25,4 +25,4 @@ If you're running low on time, **please** quit this exercise early and make sure
 
 ## Submit your repository
 #### Goal:  Learn how to push your commits to GitHub and create a pull request on GitHub.com
-Once you're ready to commit and push your responses, look at the tip on the course website for [instructions on committing, pushing and submiting](https://psuastro528.github.io/Fall2025/tips/submitting/) your work.  You'll use these same steps for all future labs.
+Once you're ready to commit and push your responses, look at the tip on the course website for [instructions on committing, pushing and submiting](https://psuastro528.github.io/Fall2025/tips/labs/submitting/) your work.  You'll use these same steps for all future labs.
