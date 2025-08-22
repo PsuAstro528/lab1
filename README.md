@@ -4,7 +4,7 @@
 #### Goal:  Learn the basics of core development tools
 For this first exercise, there will be very little coding, because we'll focus on getting used to using git, GitHub, Lynx Portal, Julia and the Pluto notebook environment.
 
-Start at the course website where it offers [help getting setup to complete this lab using Lynx](https://psuastro528.github.io/Fall2025/tips/aci/initial_setup/).  A link that will trigger GitHub Classroom to create your private repository to start from was provided via Canvas.  
+Start at the course website where it offers [help getting setup to complete this lab using Lynx](https://psuastro528.github.io/Fall2025/tips/labs/).  A link that will trigger GitHub Classroom to create your private repository to start from was provided via Canvas.  
 Once you get a terminal on Lynx (or your local machine if you prefer), clone _your_ repository (and not the generic lab1-start).  Then start julia and Pluto, open the Pluto notebook in ex1.jl and start working through ex1.jl.
 
 ## Exercise 2
@@ -25,4 +25,4 @@ If you're running low on time, **please** quit this exercise early and make sure
 
 ## Submit your repository
 #### Goal:  Learn how to push your commits to GitHub and create a pull request on GitHub.com
-Once you're ready to commit and push your responses, look at the tip on the course website for [instructions on committing, pushing and submiting](https://psuastro528.github.io/Fall2025/tips/submitting/) your work.  You'll use these same steps for all future labs.
+Once you're ready to commit and push your responses, look at the tip on the course website for [instructions on committing, pushing and submiting](https://psuastro528.github.io/Fall2025/tips/labs/submitting/) your work.  You'll use these same steps for all future labs.
