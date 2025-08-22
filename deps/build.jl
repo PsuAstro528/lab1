@@ -1,0 +1,12 @@
+#println("Making sure Pluto is installed")
+import Pkg; 
+import Pluto; 
+
+println("Installing packages for ex1.jl")
+Pluto.activate_notebook_environment("../ex1.jl"); 
+Pkg.instantiate(); 
+
+println("Installing packages for ex2.jl")
+Pluto.activate_notebook_environment("../ex2.jl"); 
+Pkg.instantiate(); 
+
