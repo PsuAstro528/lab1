@@ -33,10 +33,9 @@ jobs:
           arch: ${{ matrix.julia-arch }}
       - name: Cache something
         uses: julia-actions/cache@v2
-      # Commented out since lab notebooks aren't packages to be built
-      - name: Build Package
+      - name: Build Package and dependencies
         uses: julia-actions/julia-buildpkg@v1
-      - name: Instal test/notebook dependencies
-        run: julia test/instantiate.jl
+      #- name: Install test/notebook dependencies
+      #  run: julia test/instantiate.jl
       - name: Run Tests
         uses: julia-actions/julia-runtest@v1
