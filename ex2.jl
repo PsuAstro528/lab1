@@ -515,7 +515,7 @@ display_msg_if_fail(check_type_isa(:response_2g,response_2g,Markdown.MD))
 
 # ╔═╡ a387d515-82d6-4211-8934-b5f0d3b062dc
 md"""
-h.  I've written some tests in 'test/test2.jl'.  Because of Pluto's reactivity, it's tricky to run a file from inside a notebook.  Instead, run `julia --project=test test/runtests2.jl` to run the code in this Pluto notebook and then the tests in 'test/test2.jl'.  First, check that your functions pass my tests.  If not, is it because your function has a bug?  If so, fix your functions.  Or is there another explanation?  
+h.  I've written some tests in 'test/test2.jl'.  Because of Pluto's reactivity, it's tricky to run a file from inside a notebook.  Instead, run `julia --project test/runtests2.jl` to run the code in this Pluto notebook and then the tests in 'test/test2.jl'.  First, check that your functions pass my tests.  If not, is it because your function has a bug?  If so, fix your functions.  Or is there another explanation?  
 It may help to look at the source code for the tests to see what it means to have "passed".
 
 Can you suggest additional tests for such functions?  Feel free to add them to the tests in 'test/test2.jl' and check that your code still passes.

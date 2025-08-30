@@ -110,7 +110,7 @@ else
 		elseif isnothing(student_dept)
 			keep_working("Could there be a typeo?")
 		elseif !(student_dept isa String) 
-			keep_working(md"The value of `student_year` should be a String.")
+			keep_working(md"The value of `student_dept` should be a String.")
 		elseif occursin("Astro", student_dept)
 			correct(md"Welcome back.")
 		else
@@ -207,7 +207,7 @@ md"In the above cell, we test that the `occursin` function retures true.  There 
 @test student_name == instructor
 
 # ╔═╡ 852d7d9d-fc12-42f2-863f-af0b647979df
-md"**TODO:** There are (at least) two bugs in the above tests.  Find them and fix them."
+md"**TODO:** There are (at least) one bug in the above tests.  Find them and fix them."
 
 # ╔═╡ 6584e095-465d-4b3d-a383-9ac569e307cc
 md"In the future, we'll separate out the tests for each exercise into a separate file (located in the `test` directory of the lab repository), so that they don't distract from the code we're writing."
